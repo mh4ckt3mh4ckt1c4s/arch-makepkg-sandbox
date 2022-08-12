@@ -25,7 +25,7 @@ cd arch-makepkg-sandbox
  docker run -it --rm registry.gitlab.com/mh4ckt3mh4ckt1c4s/arch-makepkg-sandbox
  ```
 
- You will have all privileges with `sudo` (no need for password). The basic build tools are present (`base-devel` arch package), along with `git` and `vim`.
+ You will have all privileges with `sudo` (no need for password). The basic build tools are present (`base-devel` arch package), along with `git` and `vim`. You also have `wget` to fetch source code and `namcap` to check the packages you created.
 
  If you're using the launch script, a `host` directory will be created in the home folder of your sandbox, which you can access from your hosh with the `docker-access` folder.
 
